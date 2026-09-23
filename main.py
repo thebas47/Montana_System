@@ -1,6 +1,6 @@
 from interface import CliInterfaces as msg
-from sheet_work import SheetWorks
-from pdf_work import PdfWorks
+from workers.sheet_work import SheetWorks
+from workers.pdf_work import PdfWorks
 
 import time
 
